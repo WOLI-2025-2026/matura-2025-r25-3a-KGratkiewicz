@@ -1,4 +1,4 @@
-//imie i nazwisko
+//Jakub Grątkiewicz
 
 #include <iostream>
 int main() {
