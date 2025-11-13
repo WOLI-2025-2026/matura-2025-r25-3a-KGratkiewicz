@@ -24,12 +24,16 @@ void Zadanie2_1(){
         cerr << "Nie mozna otworzyc pliku" << endl;
     }
 
+    ofstream wynik("wynik2_1.txt");
+
     string linia;
     while(plik >> linia){
         if(czy_palindrom(linia)){
             cout << linia << endl;
+            wynik << linia << endl;
         }
     }
+    wynik.close();
     plik.close();
 }
 

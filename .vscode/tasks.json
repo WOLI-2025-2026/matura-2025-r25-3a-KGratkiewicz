@@ -22,6 +22,17 @@
                 "isDefault": true
             },
             "detail": "Zadanie wygenerowane przez debuger."
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: kompiluj",
+            "command": "build",
+            "targets": [
+                "[N/D — Wybierz zestaw]"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Zadanie kompiluj szablonu narzędzia CMake"
         }
     ],
     "version": "2.0.0"
